@@ -136,10 +136,10 @@ Free HTML CSS Template
         <div class="reservation">
             <div class="reservation-left">
                 <h2>Make a Reservation</h2>
-                <form class="reservation-form" onsubmit="handleReservation(event)">
+                <form class="reservation-form" action="/reserve" method="POST">
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="full_name" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
@@ -184,7 +184,7 @@ Free HTML CSS Template
                     </div>
                     <div class="form-group full-width">
                         <label for="special">Special Requests</label>
-                        <textarea id="special" name="special" rows="5" placeholder="Any dietary restrictions or special occasions?"></textarea>
+                        <textarea id="special" name="special_requests" rows="5" placeholder="Any dietary restrictions or special occasions?"></textarea>
                     </div>
                     <button type="submit" class="submit-btn">Reserve Table</button>
                 </form>

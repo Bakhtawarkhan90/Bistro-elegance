@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation Confirmed | Bistro Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f9f9f9, #ffe5d9);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+
+        .card h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: #d35400;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .checkmark {
+            font-size: 60px;
+            color: #27ae60;
+            margin-bottom: 20px;
+        }
+
+        .btn-home {
+            margin-top: 25px;
+            display: inline-block;
+            background-color: #d35400;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn-home:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="checkmark">✓</div>
+        <h1>Reservation Confirmed!</h1>
+        <p>Thank you for booking a table at <strong>Bistro Restaurant</strong>.</p>
+        <p>We look forward to serving you!</p>
+        <a class="btn-home" href="/">Back to Home</a>
+    </div>
+</body>
+</html>
